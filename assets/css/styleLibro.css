@@ -1,0 +1,197 @@
+.genero {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: var(--h3-semibold-font-family);
+    }
+    .titulo {
+    align-self: stretch;
+    position: relative;
+    font-size: 72px;
+    letter-spacing: -0.04em;
+    line-height: 80px;
+    font-weight: 600;
+    font-family: var(--display-01-semibold-font-family);
+    }
+    .descripcion {
+    align-self: stretch;
+    position: relative;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: var(--subheading-semi-bold-font-family);
+    }
+    .texto-sinopsis {
+    align-self: stretch;
+    position: relative;
+    line-height: 17px;
+    font-family: var(--paragraph-01-regular-font-family);
+    }
+    .input-label1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    line-height: 17px;
+    font-family: var(--paragraph-01-regular-font-family);
+    }
+    .input-label {
+    width: 80px;
+    position: relative;
+    height: 17px;
+   
+    }
+    .icons {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+    max-width: 16px;
+    max-height: 16px;
+    }
+    .ver-mas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: #0057e0;
+    }
+    .sinopsis {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    font-size: 14px;
+    }
+    .primary-button {
+    position: relative;
+    line-height: 22px;
+    font-weight: 600;
+    font-family: var( --paragraph-03-regular-font-family);
+    }
+    .icons1 {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+    transition: transform 0.6s ease;
+    }
+    .button {
+    border-radius: 25px;
+    background-color: #0057e0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 14px 20px;
+    gap: 8px;
+    outline: none;
+    color: white;
+    border: none;
+    transition: transform 0.6s ease, background-color 0.6s ease;
+    }
+    .button1 {
+    border-radius: 25px;
+    border: 1px solid #0057e0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 14px 20px;
+    gap: 8px;
+    color: #0057e0;
+    transition: transform 0.6s ease, background-color 0.6s ease;
+    }
+    .button:hover, .button1:hover{
+        transform: scale(1.1);
+    }
+    .button:hover .icons1, .button1:hover .icons1{
+        transform: rotate(360deg);
+    }
+    .botones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 18px;
+    color: #fff;
+    }
+    .info-texto {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 29px;
+    }
+    .img {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 906px;
+    flex-shrink: 0;
+    object-fit: contain;
+    }
+    .imagen-libro {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    }
+    .imagen-libro:hover .img{
+        animation: rebote 3s ease-in-out infinite;
+    }
+    .imagen-libro:hover .shadow{
+        animation: sombra 3s ease-in-out infinite;
+        opacity: 1;
+    }
+    .imagen-libro:not(:hover) .img {
+        animation-play-state: paused;
+        transform: translateY(0);
+        transition: transform 3s ease-out;
+      }
+      .imagen-libro:not(:hover) .shadow {
+        animation-play-state: paused;
+        opacity: 0;
+        width: 60%;
+      }
+    .contenedor {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    max-width: 1440px;
+    }
+    .info-libro {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #fff, #adcdff 50%, #fff);
+    height: calc(100vh - 118px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    max-height: 906px;
+    text-align: left;
+    font-size: 33px;
+    color: #000;
+    font-family: Montserrat;
+    margin-top: 118px;
+    }
+    
